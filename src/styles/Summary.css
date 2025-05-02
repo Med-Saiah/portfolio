@@ -1,0 +1,108 @@
+.summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 80px;
+    gap: 80px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    flex-wrap: wrap;
+  }
+  
+  /* Left: Text Section */
+  .summary-left {
+    flex: 1;
+    margin-right: 60px;
+  }
+  
+  .summary-left h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2px; /* Further reduced margin */
+  }
+  
+  .summary-left h1 span {
+    color: var(--accent-color);
+  }
+  
+  .typewriter {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 5px; /* Further reduced margin */
+    display: inline-block;
+  }
+  
+  .cursor {
+    display: inline-block;
+    color: var(--accent-color);
+    animation: blink 0.75s step-end infinite;
+    font-weight: bold;
+  }
+  
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+  .summary-text {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 10px; /* Further reduced margin */
+  }
+  
+  /* Buttons Container */
+  .summary-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  /* Buttons Style */
+  .summary-buttons .btn {
+    display: inline-block;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border: 0.1rem solid rgb(53, 53, 53);
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    text-decoration: none;
+  }
+  
+  /* Filled version */
+  .summary-buttons .btn:not(.outline) {
+    background-color: var(--accent-color);
+    color: white;
+    border-color: var(--accent-color);
+  }
+  
+  /* Outline version */
+  .summary-buttons .btn.outline {
+    background-color: transparent;
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+  }
+  
+  /* Hover effect */
+  .summary-buttons .btn:hover {
+    opacity: 0.85;
+  }
+  
+  /* Right: Image Section */
+  .summary-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px; /* Added margin to move the image further to the right */
+  }
+  
+  .summary-right img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--accent-color);
+  }

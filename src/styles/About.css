@@ -1,0 +1,62 @@
+.about {
+  padding: 80px 100px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+  color: var(--accent-color);
+  text-align: center;
+}
+
+#about h2 {
+  margin-top: 10px;
+}
+
+.about-block {
+  margin-bottom: 60px;
+}
+
+.about-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.about-line {
+  width: 6px;
+  height: 30px;
+  background-color: var(--accent-color);
+  margin-right: 12px;
+  border-radius: 3px;
+}
+
+.about-subtitle {
+  font-size: 1.6rem;
+  color: var(--text-color);
+  margin: 0;
+}
+
+.about-content {
+  padding-left: 18px; 
+}
+
+.about-text {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+#about p {
+  margin-bottom: 10px;
+}
+
+

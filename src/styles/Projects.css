@@ -1,0 +1,95 @@
+.projects {
+    padding: 80px 50px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    text-align: center;
+  }
+  
+  .projects-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .projects-title {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: var(--accent-color);
+  }
+  
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .project-card {
+    background: transparent;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    padding: 25px;
+    width: 30rem;
+    text-align: left;
+  
+    /* Important animation fix */
+    transform: perspective(1000px) scale(1); /* Fix initial scale */
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .project-card:hover {
+    transform: perspective(1000px) scale(1.2) translateY(-10px); /* Zoom in and move up */
+    z-index: 10; /* Ensure it appears above other cards */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); /* Enhanced shadow for emphasis */
+  }
+  
+  .project-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border-radius: 0.25rem;
+  }
+  
+  .project-title {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    color: var(--text-color);
+  }
+  
+  .project-description {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: var(--text-color);
+  }
+  
+  .project-tech {
+    font-size: 0.9rem;
+    color: var(--accent-color);
+    margin-bottom: 20px;
+  }
+  
+  .project-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .project-links a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: color 0.3s;
+  }
+  
+  .project-links a:hover {
+    color: var(--accent-color);
+  }
+  
+  .link-icon {
+    font-size: 1rem;
+  }

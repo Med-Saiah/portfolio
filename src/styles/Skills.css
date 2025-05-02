@@ -1,0 +1,47 @@
+.skills {
+    padding: 80px 50px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .skills-subtitle {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .skills-title {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: var(--accent-color);
+    text-align: center;
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the whole block */
+    row-gap: 40px;
+    column-gap: 60px;
+  }
+  
+  .skill-item {
+    flex: 0 1 150px; /* Each skill takes about 150px width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .skill-icon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .skill-item p {
+    font-size: 1.1rem;
+    margin: 0;
+  }
+  
