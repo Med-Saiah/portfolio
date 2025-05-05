@@ -50,7 +50,7 @@ my-portfolio/
 
 - **Email**: saiahaissa.med@gmail.com  
 - **GitHub**: [Med-Saiah](https://github.com/Med-Saiah)  
-- **LinkedIn**: [Your LinkedIn URL]
+- **LinkedIn**: [[Your LinkedIn URL](https://linkedin.com/in/mohamed-saiah-aissa-985385269)]
 
 ---
 
