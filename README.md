@@ -32,17 +32,7 @@ This project showcases my skills, projects, and how to get in touch with me.
 
 ---
 
-## 📁 Folder Structure
 
-my-portfolio/
-public/ # Static files (favicon, index.html, etc.)
-src/
-    components/ # All React components
-    styles/ # CSS files
-    package.json
-    README.md
-
----
 
 ## 📬 Contact Me
 
