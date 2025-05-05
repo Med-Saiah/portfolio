@@ -36,7 +36,7 @@ This project showcases my skills, projects, and how to get in touch with me.
 
 - **Email**: saiahaissa.med@gmail.com  
 - **GitHub**: [Med-Saiah](https://github.com/Med-Saiah)  
-- **LinkedIn**: [Mohamed Saiah Aissa(https://linkedin.com/in/mohamed-saiah-aissa-985385269)]
+- **LinkedIn**: [Mohamed Saiah Aissa](https://linkedin.com/in/mohamed-saiah-aissa-985385269)
 
 ---
 
