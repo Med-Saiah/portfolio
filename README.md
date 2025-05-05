@@ -26,7 +26,6 @@ This project showcases my skills, projects, and how to get in touch with me.
 ## 🛠️ Technologies Used
 
 - **React.js**
-- **Tailwind CSS**
 - **EmailJS** (for contact form)
 - **React Icons**
 - **GitHub Pages** (for deployment)
