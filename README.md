@@ -48,7 +48,7 @@ my-portfolio/
 
 ## 📬 Contact Me
 
-- **Email**: youremail@example.com  
+- **Email**: saiahaissa.med@gmail.com  
 - **GitHub**: [Med-Saiah](https://github.com/Med-Saiah)  
 - **LinkedIn**: [Your LinkedIn URL]
 
