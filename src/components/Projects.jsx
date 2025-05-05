@@ -4,6 +4,7 @@ import portfolioImg from '../assets/portfolio.png';
 import facturationImg from '../assets/facturation.png';
 
 
+
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const Projects = () => {
@@ -25,7 +26,7 @@ const Projects = () => {
             <span>React</span> | <span>CSS</span> | <span>AOS</span>
           </div>
           <div className="project-links">
-            <a href="https://github.com/your-repo" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Med-Saiah/portfolio" target="_blank" rel="noopener noreferrer">
               <FaGithub className="link-icon" /> Code
             </a>
             <a href="https://med-saiah.github.io/portfolio/" target="_blank" rel="noopener noreferrer">
