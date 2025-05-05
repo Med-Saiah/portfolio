@@ -8,7 +8,7 @@ This project showcases my skills, projects, and how to get in touch with me.
 ## ![image](https://github.com/user-attachments/assets/8b7719c5-bb63-450b-a31b-5a0d96d11a05)
 
 
-[🔗 View Live Demo](https://med-saiah.github.io/portfolio)
+[🔗 View Live Demo](https://Med-Saiah.github.io/portfolio)
 
 ---
 
