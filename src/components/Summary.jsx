@@ -35,7 +35,7 @@ const Summary = () => {
         <h1>Hello, I'm <span>Mohamed Saiah Aissa</span></h1>
         <h2 className="typewriter">{text}<span className="cursor">|</span></h2>
         <p className="summary-text">
-        Aspiring DevOps and Cloud Engineer with experience in telecom engineering andsoftware Development. Completed a virtual job simulation at Verizon as a softwareengineer and an internship At ATM Mobilis, gaining expertise in mobile networks.Passionate about cloud computing,Automation, and infrastructure management.
+        Aspiring DevOps and Cloud Engineer with experience in telecom engineering and software Development. Completed a virtual job simulation at Verizon as a software engineer and an internship At ATM Mobilis, gaining expertise in mobile networks.Passionate about cloud computing, Automation, and infrastructure management.
         </p>
         <div className="summary-buttons">
           <a href="#contact" className="btn">Contact Me</a>
